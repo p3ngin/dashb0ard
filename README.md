@@ -3,7 +3,7 @@
 Python 3 dashboard application to display various daily tasks/reminders. Connects to a local MySQL database hosted on a raspberry pi. Creates GUI windows through tkinter module with multiple windows opening/closing to input/edit data stored in database. 
 
 
-##To-Do -------------
+## To-Do -------------
 - [ ] add comments
 - [ ] validation on all SQL and methods
 - [ ] formatting of GUI windows 
