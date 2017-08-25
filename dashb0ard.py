@@ -7,7 +7,7 @@ import datetime
 
 ''' TABLE chores (chore TEXT, inputdate DATE, duedate DATE, completed BOOL '''
 
-db = MySQLdb.connect("192.168.1.8", "monitor", "password", "dashboard")
+db = MySQLdb.connect("192.168.1.8", "USER", "PASSWORD", "dashboard")
 curs = db.cursor()
 
 sqlA = "INSERT INTO chores values('"
